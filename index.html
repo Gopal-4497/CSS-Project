@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project 2 - Registration Form</title>
+<link rel="stylesheet" href="Pro2.css"/>
+<style>
+
+body
+{background-image: radial-gradient( circle 780.6px at 10% 20%,  rgba(133,255,189,1) 0%, rgba(255,251,125,1) 90.7% );
+}
+}
+*{margin:0%;}
+input{
+padding:2%;
+width:40%;
+margin:1% 0%;
+font-size:20px;
+}
+
+.Reg-form{
+text-align:center;
+margin:3% 0% 8% 0%;
+border-radius:25px;
+}
+
+.radio-button{
+width:2%;
+
+}
+
+.education{
+width:44%;
+padding:2%;
+margin:2% 0%;
+}
+
+.address{
+width:44%;
+padding:2% 0%;
+margin:3% 0%;
+}
+
+.apply{
+width:44%;
+padding:2% 0%;
+
+}
+
+.gender{
+font-size:20px;
+margin-left:-18%;
+}
+</style>
+</head>
+<body>
+<form class="Reg-form"action="Successful.html">
+<h1> Registration page</h1>
+
+<p><input type="text" placeholder="Enter your name"></p>
+
+<p><input type="text" placeholder="Enter your phonenumber"></p>
+
+<p><input type="email" placeholder="Enter your email"></p>
+
+<p><input type="password" placeholder="Enter Password"></p>
+
+<p><input type="password" placeholder="Confirm the Password"></p>
+
+
+<p class="gender"><span>Select your gender:</span>
+<label>
+<input class="radio-button" value="male" type="radio" name="gender"/>Male
+</label>
+<label>
+<input class="radio-button" value="female" type="radio" name="gender"/>Female
+</label>
+</p>
+
+<p>
+<input type="text" placeholder="Enter Aadhar number"></p>
+
+
+<select class="education">
+<option value="Mind">Select your highest degree</option>
+<option value="pg">Post Graduation</option>
+<option value="ug">Graduation</option>
+<option value="intermediate">Intermediate</option>
+<option value="ssc">SSC</option>
+</select>
+<p><input type="text" placeholder="year of passing"></p>
+<p ><textarea  class="address" placeholder="Enter your Address"></textarea></p>
+
+<button class="apply">Submit</button>
+</form>
+</body>
+</html>
